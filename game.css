@@ -1,36 +1,51 @@
 body {
-  padding-left: 200px;
+  
 }
-
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+   width: 400px;
+   margin: 60px auto;
+ 
+ 
+}
 .head-title {
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 2em;
   font-weight: bolder;
-  padding: 10px;
-  width: 390px;
+  width: 100%;
   background-color: aquamarine;
-  /* align-items: center; */
-}
-
-button {
-  background-color: antiquewhite;
-  font-size: 13px;
-  font-weight: bold;
-  border: none;
-  width: 100px;
-  padding: 20px 30px;
-  border-radius: 30px;
-}
-
-button:hover {
-  background-color: rgb(216, 216, 216);
-  border: none;
+  margin: 0;
 }
 
 .buttons-div {
-  background-color: rgb(235, 255, 232);
-  padding: 50px;
-  position: absolute;
-  align-items: center;
+  margin: 50;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(216, 216, 216);
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+
+  
 }
+
+button {
+  background-color: rgb(105, 211, 122);
+  font-size: 1em;
+  font-weight: bold;
+  border: none;
+  width: 100px;
+  padding: 1em 1.3em;
+    border-radius: 30px;
+  text-align: center;
+  margin: 40px  25px;
+}
+
+button:hover {
+  background-color: rgb(234, 168, 168);
+  border: none;
+}
+
+

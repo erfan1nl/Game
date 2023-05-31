@@ -4,17 +4,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <title>Document</title>
+    
   </head>
   <link rel="stylesheet" href="game.css" />
+  <!-- --------------------------------------------------------- -->
   <body>
-    <div class="head-title">
-      <p>Rock Paper Scissors</p>
-    </div>
-    <div class="buttons-div">
-      <button
-        onclick="
+    <div class="flex-container">
+      <div class="head-title">
+        <p>Rock Paper Scissors</p>
+        <p>Designed for Natalya</p>
+      </div>
+      <div class="buttons-div">
+        <button
+          onclick="
      
      
      let randomNumber = Math.random()
@@ -37,7 +40,7 @@ let result = '';
       if (computerMove === 'rock') {
         result = 'Tie'
       } else if (computerMove === 'paper') {
-        result = 'natalya you loose  😟'
+        result = 'Sorry Natalya you loose  😟'
       } else if (computerMove === 'scissors')
       result = 'Nice job Natalya you win 😊';
 
@@ -46,11 +49,11 @@ let result = '';
 
              
     "
-      >
-        Rock
-      </button>
-      <button
-        onclick="
+        >
+          Rock
+        </button>
+        <button
+          onclick="
     let randomNumber = Math.random()
         let computerMove = ''
 
@@ -79,12 +82,12 @@ let result = '';
           alert(`You picked paper. Computer picked ${computerMove}. ${result} `)
     
     "
-      >
-        Paper
-      </button>
+        >
+          Paper
+        </button>
 
-      <button
-        onclick="
+        <button
+          onclick="
         let randomNumber = Math.random()
         let computerMove = ''
 
@@ -113,10 +116,10 @@ let result = '';
           alert(`You picked scissors. Computer picked ${computerMove}. ${result} `)
 
     "
-      >
-        Scissors
-      </button>
+        >
+          Scissors
+        </button>
+      </div>
     </div>
-    <script></script>
   </body>
 </html>
